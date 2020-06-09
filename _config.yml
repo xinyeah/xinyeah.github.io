@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://sugartxy.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,8 +99,8 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repository: https://github.com/sugartxy/sugartxy.github.io
+  type: git
+  repository: https://gh_token@github.com/sugartxy/sugartxy.github.io.git
   branch: master
 
 symbols_count_time:
