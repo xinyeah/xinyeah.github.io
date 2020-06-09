@@ -10,3 +10,7 @@ description: 作为搭建站点之后的第一篇文章，就来写一下搭建�
 首先先上官网链接 [Github Pages](https://pages.github.com/)
 每个Github账号可以生成一个个人站点。创建一个名为username.github.io的公开的repository，其中username必须跟github用户名一致。在项目中添加index.html，就拥有了自己的站点：https://username.github.io
 官方推荐的静态站点生成器(static site generator)是[Jekyll](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)。拥有一个jekyll生成站点的最便捷的方式，是在Settings页面中的Github Pages，选择Jekyll的theme。
+
+# Hexo
+Hexo也是一款static site generator。
+[这里](https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39)是hexo安装和部署的教程。
