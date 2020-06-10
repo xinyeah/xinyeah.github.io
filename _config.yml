@@ -101,7 +101,7 @@ theme: next
 deploy:
   type: git
   repository: https://gh_token@github.com/sugartxy/sugartxy.github.io.git
-  branch: master
+  branch: travis
 
 symbols_count_time:
  #文章内是否显示
