@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>搭建基于Hexo和Github Pages的个人站点</title>
+      <link href="/2020/06/07/Personal%20Site/"/>
+      <url>/2020/06/07/Personal%20Site/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h1><p>在众多站点选择中，最终选择了Github Pages。主要还是因为熟悉Github的版本控制，以及使用markup的便捷。<br>首先先上官网链接 <a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a><br>每个Github账号可以生成一个个人站点。创建一个名为username.github.io的公开的repository，其中username必须跟github用户名一致。在项目中添加index.html，就拥有了自己的站点：<a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a><br>官方推荐的静态站点生成器(static site generator)是<a href="https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll" target="_blank" rel="noopener">Jekyll</a>。拥有一个jekyll生成站点的最便捷的方式，是在Settings页面中的Github Pages，选择Jekyll的theme。</p><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Hexo也是一款static site generator。<br><a href="https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39" target="_blank" rel="noopener">这里</a>是hexo安装和部署的教程。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 搭建站点 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo, Github Pages, Next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
