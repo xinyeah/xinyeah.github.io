@@ -1,14 +1,10 @@
 ---
 title: 搭建Hexo + Github Pages + Travis CI个人站点的详细教程
 date: 2020-06-07 21:27:46
-tags: Hexo, git submodule, Next, Travis CI, Github Pages
+tags: Hexo; git submodule; Next; Travis CI; Github Pages
 categories: 搭建站点
 description: 本文详细介绍了如何快速的搭建Hexo + Github Pages + Travis CI个人站点。以Next主题为例，介绍了在项目中添加了作为git submodule的主题后，如何正确的部署站点和发表文章。以及如何使用Travis CI将Hexo项目自动部署到Github Pages。
 ---
-
-[TOC]
-
-
 
 ## 技术栈选择： Github Pages + Hexo + Travis CI
 
@@ -62,11 +58,11 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
 
 1. Github上创建一个<YourName>.github.io为名的公开的代码库。其中Yourname应该跟你的Github用户名保持一致。代码库Settings中查看Github Pages相关设置，你就拥有了自己的站点：https://<YourName>.github.io。对于个人站点，只能将master分支设置为发布来源。
 
-   ![image-20200617193336642](C:\Users\tgttx\AppData\Roaming\Typora\typora-user-images\image-20200617193336642.png)
+   ![image-20200617193336642](..\img\image-20200617193336642.png)
 
 2. 点击Clone, 复制代码库的URL。
 
-![image-20200617181657118](C:\Users\tgttx\AppData\Roaming\Typora\typora-user-images\image-20200617181657118.png)
+![image-20200617181657118](..\img\image-20200617181657118.png)
 
 2. 初始化<YourName>.github.io为Hexo项目
 
@@ -162,10 +158,11 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
    INFO  Created: ~/<YourName>/<YourName>.github.io/source/_posts/<title>.md
    ```
 
-2. 到这个路径下~/<YourName>/<YourName>.github.io/source/_posts/<title>.md，将博客内容写在<title>.md。
-3. 如果themes/next路径下的内容做了改变，在themes/next路径下，将更改的代码check in到刚刚Fork的themes/next repo。
+   将博客内容写在新创建的markdown文件里。
 
-3. 在<YourName>.github.io项目路径下，将更改的代码check in到<YourName>.github.io repo 的master分支.
+2. 如果themes/next路径下的内容做了改变，在themes/next路径下，将更改的代码check in到刚刚Fork的repo中。
+
+3. 在YourName.github.io项目路径下，将更改的代码check in到YourName.github.io repo 的master分支.
 
 4. 在本地部署。使用后续Travis CI配置后，可以省略此步骤。
 
@@ -238,7 +235,7 @@ Travis CI对于开源的Repository是免费的，只需要拥有Github账户和�
 
 这样每一次更新博客，只需要check in Markdown文件到master 分支，就会自动部署。在Travis CI网站中可以看到部署的状态。
 
-![image-20200617204126319](C:\Users\tgttx\AppData\Roaming\Typora\typora-user-images\image-20200617204126319.png)
+![image-20200617204126319](..\img\image-20200617204126319.png)
 
 ## 参考文献
 
