@@ -1,7 +1,7 @@
 ---
 title: 搭建Hexo + Github Pages + Travis CI个人站点的详细教程
 date: 2020-06-07 21:27:46
-tags: Hexo; git submodule; Next; Travis CI; Github Pages
+tags: [Hexo, git submodule, Next, Travis CI, Github Pages]
 categories: 搭建站点
 description: 本文详细介绍了如何快速的搭建Hexo + Github Pages + Travis CI个人站点。以Next主题为例，介绍了在项目中添加了作为git submodule的主题后，如何正确的部署站点和发表文章。以及如何使用Travis CI将Hexo项目自动部署到Github Pages。
 ---
@@ -236,6 +236,71 @@ Travis CI对于开源的Repository是免费的，只需要拥有Github账户和�
 这样每一次更新博客，只需要check in Markdown文件到master 分支，就会自动部署。在Travis CI网站中可以看到部署的状态。
 
 ![image-20200617204126319](/images/image-20200617204126319.png)
+
+## 其他问题
+
+### 1. 添加评论系统-gitalk
+
+参考文献：https://www.standbyside.com/2018/12/04/add-comment-function-to-next/
+
+1.1 进入[github](https://github.com/settings/applications/new)新建一个认证application
+
+![image-20200618225450931](/images/image-20200618225450931.png)
+
+创建完后会生成这个application对应的 Client ID 和 Client Secret
+
+1.2 在自己的github中创建一个同名的repository
+
+以后每篇文章都会对应这里的一个issue，这篇文章的comments和like都会记录到对应的issue里。
+
+1.3 Next主题v7.6.0中已经集成了gitalk，只需要进入主题的_config.yml里修改comments相关属性
+
+```
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+  active: gitalk
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+  # Lazyload all comment systems.
+  lazyload: false
+  # Modify texts or order for any navs, here are some examples.
+  nav:
+    #disqus:
+    #  text: Load Disqus
+    #  order: -1
+    #gitalk:
+    #  order: -2
+    
+gitalk:
+	enable: true # 启用gitalk
+  	github_id: # 你的github用户名
+  	repo: # 刚才你创建的repository的名字，只要名字，不要全链接
+  	client_id: # 你的 Client ID
+  	client_secret: # 你的 Client Secret
+  	admin_user: # 联系人, 页面显示联系**初始化评论
+  	distraction_free_mode: true  # Facebook-like distraction free mode
+    # Gitalk's display language depends on user's browser or system environment
+    # If you want everyone visiting your site to see a uniform language, you can set a force language value
+    # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+    language:
+```
+
+### 2. 本地图片无法显示
+
+参考文献：https://merrier.wang/20190111/image-skills-in-hexo.html
+
+2.1  在路径 yourName.github.io/source下创建images文件夹，将图片全部放在这个文件夹下。
+
+2.2 Markdown访问图片方式：
+
+```
+![](/images/image_name.jpg)
+```
+
+
 
 ## 参考文献
 
