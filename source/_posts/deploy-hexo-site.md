@@ -257,31 +257,31 @@ Travis CI对于开源的Repository是免费的，只需要拥有Github账户和�
 
 ```
 comments:
-  # Available values: tabs | buttons
-  style: tabs
-  # Choose a comment system to be displayed by default.
-  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: gitalk
-  # Setting `true` means remembering the comment system selected by the visitor.
-  storage: true
-  # Lazyload all comment systems.
-  lazyload: false
-  # Modify texts or order for any navs, here are some examples.
-  nav:
-    #disqus:
-    #  text: Load Disqus
-    #  order: -1
-    #gitalk:
-    #  order: -2
+    # Available values: tabs | buttons
+    style: tabs
+    # Choose a comment system to be displayed by default.
+    # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+    active: gitalk
+    # Setting `true` means remembering the comment system selected by the visitor.
+    storage: true
+    # Lazyload all comment systems.
+    lazyload: false
+    # Modify texts or order for any navs, here are some examples.
+    nav:
+        #disqus:
+        #  text: Load Disqus
+        #  order: -1
+        #gitalk:
+        #  order: -2
     
 gitalk:
-	enable: true # 启用gitalk
-  	github_id: # 你的github用户名
-  	repo: # 刚才你创建的repository的名字，只要名字，不要全链接
-  	client_id: # 你的 Client ID
-  	client_secret: # 你的 Client Secret
-  	admin_user: # 联系人, 页面显示联系**初始化评论
-  	distraction_free_mode: true  # Facebook-like distraction free mode
+    enable: true # 启用gitalk
+    github_id: # 你的github用户名
+    repo: # 刚才你创建的repository的名字，只要名字，不要全链接
+    client_id: # 你的 Client ID
+    client_secret: # 你的 Client Secret
+    admin_user: # 联系人, 页面显示联系**初始化评论
+    distraction_free_mode: true  # Facebook-like distraction free mode
     # Gitalk's display language depends on user's browser or system environment
     # If you want everyone visiting your site to see a uniform language, you can set a force language value
     # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
