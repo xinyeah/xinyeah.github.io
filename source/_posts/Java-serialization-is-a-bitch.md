@@ -1,7 +1,7 @@
 ---
 title: Java serialization is a bitch!
 date: 2020-06-21 21:54:05
-tags: JAVA, serialization
+tags: [JAVA, serialization]
 categories: Effective Java reading notes
 description: There is no reason to use Java Serialization anymore.
 ---
