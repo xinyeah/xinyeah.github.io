@@ -3,12 +3,12 @@ title: Databricks Migration Guide
 date: 2020-06-24 22:18:09
 tags: [Databricks, migration, scripts]
 categories: Databricks使用专栏
-description: When you need migrate an old Databricks to a new Databricks, all of the files, jobs, clusters, configurations and dependencies are supposed to move. It is time consuming and also easy to omit some parts. I document the detailed migration steps, and also write several scripts to automatically migrate folders, clusters and jobs. In this chapter, I will show you how to migrate Databricks.
+description: When you need to migrate an old Databricks to a new Databricks, all of the files, jobs, clusters, configurations and dependencies are supposed to move. It is time consuming and also easy to omit some parts. I document the detailed migration steps, and also write several scripts to automatically migrate folders, clusters and jobs. In this chapter, I will show you how to migrate Databricks.
 ---
 
 # Databricks migration steps
 
-When you need migrate an old Databricks to a new Databricks, all of the files, jobs, clusters, configurations and dependencies are supposed to move. It is time consuming and also easy to omit some parts. I document the detailed migration steps, and also write several scripts to automatically migrate folders, clusters and jobs.  
+When you need to migrate an old Databricks to a new Databricks, all of the files, jobs, clusters, configurations and dependencies are supposed to move. It is time consuming and also easy to omit some parts. I document the detailed migration steps, and also write several scripts to automatically migrate folders, clusters and jobs.  
 
 In this chapter, I will show you how to migrate Databricks.
 
@@ -24,7 +24,7 @@ Navigate to https://github.com/sugartxy/databricks, fork this repository, and do
 
 ## 2. set up authentication for two profiles
 
-Set up authentication for two profiles for old databricks and new databricks. Theis CLI authentication need to done by a personal access token.
+Set up authentication for two profiles for old databricks and new databricks. This CLI authentication need to done by a personal access token.
 
 2.1 Generate a personal access token.
 
@@ -164,19 +164,19 @@ generate key vault-backed secret scope:
 
 1. Go to `https://<databricks-instance>#secrets/createScope`. This URL is case sensitive; scope in `createScope` must be uppercase.
 
-   ![Create scope](C:\Users\tgttx\Documents\sugartxy.github.io\source\images\azure-kv-scope.png)
+   ![Create scope](/images/azure-kv-scope.png)
 
 2. Enter the name of the secret scope. Secret scope names are case insensitive.
 
 3. These properties are available from the **Properties** tab of an Azure Key Vault in your Azure portal.
 
-   ![Azure Key Vault Properties tab](C:\Users\tgttx\Documents\sugartxy.github.io\source\images\azure-kv.png)
+   ![Azure Key Vault Properties tab](/images/azure-kv.png)
 
 4. Click the **Create** button.
 
 ## 9. migrate Azure blob storage and Azure Data Lake Storage mounts
 
-Manually remount all Azure Blob storage.
+There is no external API to use, have to manually remount all storage.
 
 9.1 List all mount points in old Databricks using `notebook`.
 
@@ -184,7 +184,7 @@ Manually remount all Azure Blob storage.
 dbutils.fs.mounts()
 ```
 
-9.2 Remount all blob storage following the official [docs](https://docs.databricks.com/data/data-sources/azure/azure-storage.html).
+9.2 Remount all blob storage following the official [docs](https://docs.databricks.com/data/data-sources/azure/azure-storage.html) using `notebook`.
 
 ```python
 dbutils.fs.mount(
