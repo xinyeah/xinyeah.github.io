@@ -3,7 +3,7 @@ title: Always flush Application Insights
 date: 2020-06-22 21:50:20
 tags: Application Insights
 categories: Application Insights
-description:
+description: Databricks docs says, the SDK sends out data at fixed intervals (typically 30 secs) or whenever the buffer is full (typically 500 items). However,  from my personal experience, it won't send the data if you don't flush.
 ---
 
 ## What is Application Insights?
@@ -18,7 +18,7 @@ It support Java, C#, Node.js, python [and so on](https://docs.microsoft.com/en-u
 
 ## Flush data
 
-The official docs says, the SDK send out data at fixed intervals (typically 30 secs) or whenever the buffer is full (typically 500 items). 
+The official docs says, the SDK sends out data at fixed intervals (typically 30 secs) or whenever the buffer is full (typically 500 items). 
 
 However,  from my personal experience, **it won't send the data if you don't flush**.
 
