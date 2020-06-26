@@ -4,4 +4,9 @@ type: about
 layout: about
 date: 2020-06-07 23:13:46
 ---
-唐糖糖，一名懵懵懂懂跌跌撞撞的在代码里面行走的程序员，希望能在这个树洞里记录下自己一路走来的技术收货和生活感悟。
+My name is Xinye Tang. I am a Machine Learning Engineer and mainly focused on Anomaly detection, Machine Learning and Big data. Currently, I am the service owner of Azure Key Vault ATP(Advanced Threat Protection). 
+
+This is my personal blob,  and I am writing down my thoughts all around Microsoft Azure, Databricks, Spark, and other fun technologies.
+
+
+
