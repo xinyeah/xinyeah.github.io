@@ -111,6 +111,10 @@ symbols_count_time:
   total_symbols: false
   total_time: false
   
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
 sitemap:
   path: sitemap.xml
 baidusitemap:
