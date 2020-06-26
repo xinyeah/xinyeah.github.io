@@ -2,7 +2,7 @@
 title: Databricks Migration Guide
 date: 2020-06-24 22:18:09
 tags: [Databricks, migration, scripts]
-categories: Databricks使用专栏
+categories: Databricks
 description: When you need to migrate an old Databricks to a new Databricks, all of the files, jobs, clusters, configurations and dependencies are supposed to move. It is time consuming and also easy to omit some parts. I document the detailed migration steps, and also write several scripts to automatically migrate folders, clusters and jobs. In this chapter, I will show you how to migrate Databricks.
 ---
 

@@ -2,7 +2,7 @@
 title: Deploy Spark .NET app on Databricks
 date: 2020-06-19 10:35:53
 tags: [Spark, Databricks, .NET, Azure Data Factory, deploy]
-categories: Databricks使用专栏
+categories: Databricks
 description: I struggled to deploy a Spark .NET app on Databricks scheduled by Azure Data Factory pipeline. Here are the notes on the solutions how I finally figured out. From this chapter, you can step-by-step create a Spark .NET app and deploy it either on Databricks directly or scheduled by an Azure Data Factory pipeline.
 ---
 
