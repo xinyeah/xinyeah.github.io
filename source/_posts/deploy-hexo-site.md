@@ -37,7 +37,7 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
 3. 安装Hexo
 
    ```
-   $ sudo npm install -g hexo-cli
+   $ npm install -g hexo-cli
    
    $ hexo -v
    hexo-cli: 3.1.0
@@ -49,36 +49,30 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
 4. 安装Hexo-deployer-git
 
    ```
-   npm install hexo-deployer-git --save
+   $ npm install hexo-deployer-git --save
    ```
 
    
 
 ##  初始化Hexo+Github Pages项目
 
-1. Github上创建一个<YourName>.github.io为名的公开的代码库。其中Yourname应该跟你的Github用户名保持一致。代码库Settings中查看Github Pages相关设置，你就拥有了自己的站点：https://<YourName>.github.io。对于个人站点，只能将master分支设置为发布来源。
-
-   ![image-20200617193336642](/images/image-20200617193336642.png)
-
-2. 点击Clone, 复制代码库的URL。
-
-![image-20200617181657118](/images/image-20200617181657118.png)
-
-2. 初始化<YourName>.github.io为Hexo项目
+1. 初始化<YourName>.github.io为Hexo项目
 
    ```
-   $ git clone https://github.com/<YourName>/<YourName>.github.io.git
+   $ mkdir <YourName>.github.io
    
    $ cd <YourName>.github.io
    
-   $ hexo init <YourName>.github.io
+   $ hexo init
    INFO  Copying data to ~/***/<YourName>.github.io
    INFO  You are almost done! Don't forget to run 'npm install' before you start blogging with Hexo!
    
    $ npm install
+   
+   $ git init
    ```
 
-3. 初始化后的目录如下：
+2. 初始化后的目录如下：
 
    > .
    > ├── _config.yml   #站点的配置文件
@@ -89,11 +83,34 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
    > |   └── _posts   #新建post的时候会保存在这里
    > └── themes   #主题文件夹，根据主题来生成静态页面
 
+3. Github上创建一个<YourName>.github.io为名的公开的代码库。其中Yourname应该跟你的Github用户名保持一致。
+
+   为了防止错误，不要用 *README*, license, 或者 `gitignore`文件初始化项目.
+
+   代码库Settings中查看Github Pages相关设置，你就拥有了自己的站点：https://<YourName>.github.io。对于个人站点，只能将master分支设置为发布来源。
+
+   ![image-20200617193336642](/images/image-20200617193336642.png)
+
+4. 复制代码库的URL。
+
+![image-20200617181657118](/images/image-20200617181657118.png)
+
+2. 在本地代码库添加remote upstream
+
+   ```
+   $ git remote add origin remote-repository-URL
+   # Sets the new remote
+   $ git remote -v
+   # Verifies the new remote URL
+   ```
+   
 4. 根据[文档](https://hexo.io/docs/configuration)，修改_config.yml文件中关于站点的配置信息。
 
 5. 执行以下命令， 验证效果
 
    ```
+   $ hexo clean
+   $ hexo generate
    $ hexo server
    INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
    ```
