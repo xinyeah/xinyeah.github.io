@@ -14,7 +14,7 @@ In this chapter, I will show you how to migrate Databricks.
 
 ## 0. prepare all scripts
 
-Navigate to https://github.com/sugartxy/databricks, fork this repository, and download all needed scripts.
+Navigate to https://github.com/xinyeah/databricks, fork this repository, and download all needed scripts.
 
 ## 1. install databricks-cli
 
@@ -83,7 +83,7 @@ Here is the DBFS root locations from [docs](https://docs.microsoft.com/en-us/azu
 
 ## 4. migrate the workspace folders and notebooks
 
-**Solution 1:** Put the [migrate-folders.py](https://github.com/sugartxy/databricks/blob/master/migration-guide/step4-migrate-folders/step4-migrate-folders.py) in a separate folder (it will export files in this folder), and then run the migrate-folders.py script to migrate folders and notebooks. Libraries are not included using this scripts. It is shown in Step 5 to migrate libraries.
+**Solution 1:** Put the [migrate-folders.py](https://github.com/xinyeah/databricks/blob/master/migration-guide/step4-migrate-folders/step4-migrate-folders.py) in a separate folder (it will export files in this folder), and then run the migrate-folders.py script to migrate folders and notebooks. Libraries are not included using this scripts. It is shown in Step 5 to migrate libraries.
 
 Remember to replace the profile variables in this script to your customized profile names:
 
@@ -122,7 +122,7 @@ PyPI libraries:
 
 ## 6. migrate the cluster configuration
 
-Run [migrate-cluster.py](https://github.com/sugartxy/databricks/blob/master/migration-guide/step6-migrate-cluster.py) to migrate all **interactive clusters**. This script will **skip** all *job* source clusters.
+Run [migrate-cluster.py](https://github.com/xinyeah/databricks/blob/master/migration-guide/step6-migrate-cluster.py) to migrate all **interactive clusters**. This script will **skip** all *job* source clusters.
 
 Remember to replace the profile variables in this script to your customized profile names:
 
@@ -135,7 +135,7 @@ IMPORT_PROFILE = "secondary"
 
 ## 7. migrate the jobs configuration
 
-Run [migrate-job.py](https://github.com/sugartxy/databricks/blob/master/migration-guide/step7-migrate-job.py) to migrate all jobs, **schedule information** will be removed so job doesn't start before proper cutover.
+Run [migrate-job.py](https://github.com/xinyeah/databricks/blob/master/migration-guide/step7-migrate-job.py) to migrate all jobs, **schedule information** will be removed so job doesn't start before proper cutover.
 
 Remember to replace the profile variables in this script to your customized profile names:
 

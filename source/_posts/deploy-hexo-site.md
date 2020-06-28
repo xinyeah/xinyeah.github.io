@@ -117,7 +117,7 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
 
 ## 添加博客主题
 
-1. Fork [hexo-theme-next](https://github.com/sugartxy/hexo-theme-next) 项目到自己的仓库.
+1. Fork [hexo-theme-next](https://github.com/xinyeah/hexo-theme-next) 项目到自己的仓库.
 
 2. 运行以下命令将 Fork 出来的仓库 pull 到本地子模块
 

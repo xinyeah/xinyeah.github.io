@@ -87,9 +87,9 @@ This [doc](https://docs.microsoft.com/en-us/dotnet/spark/tutorials/get-started) 
 
 1. Download [Microsoft.Spark.Worker](https://github.com/dotnet/spark/releases/download/v0.6.0/Microsoft.Spark.Worker.netcoreapp2.1.linux-x64-0.6.0.tar.gz) which helps Apache Spark execute your app.
 
-2. Download [install-worker.sh](https://github.com/sugartxy/Spark/blob/master/dotnet/deployment/install-worker.sh) which copys .NET for Apache Spark dependencies into your cluster's nodes.
+2. Download [install-worker.sh](https://github.com/xinyeah/Spark/blob/master/dotnet/deployment/install-worker.sh) which copys .NET for Apache Spark dependencies into your cluster's nodes.
 
-3. Download [db-init.sh](https://github.com/sugartxy/Spark/blob/master/dotnet/deployment/db-init.sh) which installs dependencies on your Databricks cluster.
+3. Download [db-init.sh](https://github.com/xinyeah/Spark/blob/master/dotnet/deployment/db-init.sh) which installs dependencies on your Databricks cluster.
 
 4. Publish your Spark .NET app.
 
