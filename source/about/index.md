@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About Xinye
 type: about
 layout: about
 date: 2020-06-07 23:13:46
