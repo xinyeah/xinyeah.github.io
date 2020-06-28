@@ -124,17 +124,16 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
    ```
    cd <YourName>.github.io
    git submodule add https://github.com/<YourName>/hexo-theme-next.git themes/next
-   git checkout master
    ```
-
-   运行该命令后会在项目根目录生成 `.gitmodules` 文件，文件内容如下：
-
-   ```
+   
+运行该命令后会在项目根目录生成 `.gitmodules` 文件，文件内容如下：
+   
+```
    [submodule "themes/next"]
        path = themes/next
        url = https://github.com/sugartxy/hexo-theme-next
    ```
-
+   
 3. 对主题进行个性化配置后，先要 check in子模块，在 theme/next 目录下依次执行：
 
    ```
