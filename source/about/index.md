@@ -1,8 +1,4 @@
----
-title: About Xinye
-type: about
-date: 2020-06-07 23:13:46
----
+
 [![Linkedin Badge](https://img.shields.io/badge/xinye-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/xinye-tang/)](https://www.linkedin.com/in/xinye-tang/)[![Medium Badge](https://img.shields.io/badge/TangTalk-black?style=flat-square&labelColor=000000&logo=Medium&link=https://xinyeah.github.io/)](https://xinyeah.github.io/)[![Gmail Badge](https://img.shields.io/badge/tangxinye.tina@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tangxinye.tina@gmail.com)](mailto:tangxinye.tina@gmail.com)[![Donate](https://img.shields.io/badge/Support-%24-blue)](https://www.paypal.me/xinyeah)[![GitHub followers](https://img.shields.io/github/followers/xinyeah?label=Follow&style=social)](https://github.com/xinyeah/?tab=follow)
 
 # Hi there 👋, I am Xinye Tang👩‍💻
@@ -19,11 +15,11 @@ This is my personal blog,  and I am writing down my thoughts all around *Microso
 
 ## Papers
 
-[Will This Bug-fixing Change Break Regression Testing?](https://ieeexplore.ieee.org/document/7321218)
+- [Will This Bug-fixing Change Break Regression Testing?](https://ieeexplore.ieee.org/document/7321218)
 
-[Attention, Test Code is Low-quality!](http://ceur-ws.org/Vol-1469/paper5.pdf)
+- [Attention, Test Code is Low-quality!](http://ceur-ws.org/Vol-1469/paper5.pdf)
 
 
 ## Work & Education Experience
 
-<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/microsoft.png" alt="Microsoft" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/hulu.png" alt="Hulu" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/waterloo.png" alt="University of Waterloo" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/cas.png" alt="UCAS" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/whu.png" alt="Wuhan University" width="80"/>
+<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/microsoft.png" alt="Microsoft" width="60"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/hulu.png" alt="Hulu" width="60"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/waterloo.png" alt="University of Waterloo" width="60"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/cas.png" alt="UCAS" width="60"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/whu.png" alt="Wuhan University" width="60"/>
