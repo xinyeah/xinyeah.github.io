@@ -1,5 +1,7 @@
+| | |
+|-|-|
+|Contact |[![Linkedin Badge](https://img.shields.io/badge/xinye-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/xinye-tang/)](https://www.linkedin.com/in/xinye-tang/)[![Medium Badge](https://img.shields.io/badge/TangTalk-black?style=flat-square&labelColor=000000&logo=Medium&link=https://xinyeah.github.io/)](https://xinyeah.github.io/)[![Gmail Badge](https://img.shields.io/badge/tangxinye.tina@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tangxinye.tina@gmail.com)](mailto:tangxinye.tina@gmail.com)[![Donate](https://img.shields.io/badge/Support-%24-blue)](https://www.paypal.me/xinyeah)[![GitHub followers](https://img.shields.io/github/followers/xinyeah?label=Follow&style=social)](https://github.com/xinyeah/?tab=follow)|
 
-|[![Linkedin Badge](https://img.shields.io/badge/xinye-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/xinye-tang/)](https://www.linkedin.com/in/xinye-tang/)|[![Medium Badge](https://img.shields.io/badge/TangTalk-black?style=flat-square&labelColor=000000&logo=Medium&link=https://xinyeah.github.io/)](https://xinyeah.github.io/)|[![Gmail Badge](https://img.shields.io/badge/tangxinye.tina@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tangxinye.tina@gmail.com)](mailto:tangxinye.tina@gmail.com)|[![Donate](https://img.shields.io/badge/Support-%24-blue)](https://www.paypal.me/xinyeah)|[![GitHub followers](https://img.shields.io/github/followers/xinyeah?label=Follow&style=social)](https://github.com/xinyeah/?tab=follow)|
 
 # Hi there 👋, I am Xinye Tang👩‍💻
 
@@ -30,5 +32,12 @@
 
 
 ## Work & Education Experience
-
-|<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/microsoft.png" alt="Microsoft" width="60"/>|<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/hulu.png" alt="Hulu" width="60"/>|<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/waterloo.png" alt="University of Waterloo" width="60"/>|<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/cas.png" alt="UCAS" width="60"/>|<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/whu.png" alt="Wuhan University" width="60"/>|
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/microsoft.png" alt="Microsoft" width="60"/></td>
+    <td><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/hulu.png" alt="Hulu" width="60"/></td>
+    <td><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/waterloo.png" alt="University of Waterloo" width="60"/></td>
+    <td><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/cas.png" alt="UCAS" width="60"/></td>
+    <td><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/whu.png" alt="Wuhan University" width="60"/></td>
+  </tr>
+</table>
