@@ -1,15 +1,4 @@
----
-title: about
-date: 2020-08-01 13:21:15
-tags:
-categories:
-description:
----
-[![Linkedin Badge](https://img.shields.io/badge/xinye-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/xinye-tang/)](https://www.linkedin.com/in/xinye-tang/)
-[![Medium Badge](https://img.shields.io/badge/TangTalk-black?style=flat-square&labelColor=000000&logo=Medium&link=https://xinyeah.github.io/)](https://xinyeah.github.io/)
-[![Gmail Badge](https://img.shields.io/badge/tangxinye.tina@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tangxinye.tina@gmail.com)](mailto:tangxinye.tina@gmail.com)
-[![Donate](https://img.shields.io/badge/Support-%24-blue)](https://www.paypal.me/xinyeah)
-[![GitHub followers](https://img.shields.io/github/followers/xinyeah?label=Follow&style=social)](https://github.com/xinyeah/?tab=follow)
+[![Linkedin Badge](https://img.shields.io/badge/xinye-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/xinye-tang/)](https://www.linkedin.com/in/xinye-tang/)[![Medium Badge](https://img.shields.io/badge/TangTalk-black?style=flat-square&labelColor=000000&logo=Medium&link=https://xinyeah.github.io/)](https://xinyeah.github.io/)[![Gmail Badge](https://img.shields.io/badge/tangxinye.tina@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tangxinye.tina@gmail.com)](mailto:tangxinye.tina@gmail.com)[![Donate](https://img.shields.io/badge/Support-%24-blue)](https://www.paypal.me/xinyeah)[![GitHub followers](https://img.shields.io/github/followers/xinyeah?label=Follow&style=social)](https://github.com/xinyeah/?tab=follow)
 
 # Hi there 👋, I am Xinye Tang👩‍💻
 
@@ -33,12 +22,9 @@ description:
 - [Deploy Spark .NET app on Databricks](https://xinyeah.github.io/deploy-spark-dotnet-app-on-databricks/)
 <!-- BLOG-POST-LIST:END -->
 
-
-
 ## Papers
 
 - [Will This Bug-fixing Change Break Regression Testing?](https://ieeexplore.ieee.org/document/7321218)
-
 - [Attention, Test Code is Low-quality!](http://ceur-ws.org/Vol-1469/paper5.pdf)
 
 
