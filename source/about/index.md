@@ -16,4 +16,15 @@ This is my personal blog,  and I am writing down my thoughts all around *Microso
 
 - ⚡ Fun fact: My wedding ring engraving is Patronus.
 
-  <img src="https://images.ctfassets.net/usf1vwtuqyxm/6LWiIIfCx2eQkSU8yQeq88/bd866f01c30702ceafbd72151cdfdc82/Patronus_PM_B3C21M3HarrysPatronusChargingDownDementorsAcrossTheLake.Moment.jpg?w=914" alt="Patronus" style="zoom: 70%;" />
+  <img src="https://images.ctfassets.net/usf1vwtuqyxm/6LWiIIfCx2eQkSU8yQeq88/bd866f01c30702ceafbd72151cdfdc82/Patronus_PM_B3C21M3HarrysPatronusChargingDownDementorsAcrossTheLake.Moment.jpg?w=914" alt="Patronus"  width="880"/>
+
+## Papers
+
+[Will This Bug-fixing Change Break Regression Testing?](https://ieeexplore.ieee.org/document/7321218)
+
+[Attention, Test Code is Low-quality!](http://ceur-ws.org/Vol-1469/paper5.pdf)
+
+
+## Work & Education Experience
+
+<img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/microsoft.png" alt="Microsoft" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/hulu.png" alt="Hulu" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/waterloo.png" alt="University of Waterloo" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/cas.png" alt="UCAS" width="80"/><img src="https://raw.githubusercontent.com/xinyeah/xinyeah/master/images/whu.png" alt="Wuhan University" width="80"/>
