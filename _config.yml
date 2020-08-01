@@ -96,6 +96,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+  hub:
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -114,6 +120,7 @@ symbols_count_time:
 Plugins:
 - hexo-generator-baidu-sitemap
 - hexo-generator-sitemap
+- hexo-generator-feed
 
 sitemap:
   path: sitemap.xml
