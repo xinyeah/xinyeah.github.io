@@ -41,7 +41,7 @@ A stateful structured stream processing job is suddenly stuck at the 1st micro-b
 
 Spark SQL converts batch-like query to a series of incremental execution plans operating on new micro-batches of data.
 
-![image-20200706163510103](C:\Users\tgttx\Documents\xinyeah.github.io\source\images\image-20200706163510103.png)
+![image-20200706163510103](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200706163510103.png)
 
 
 
