@@ -54,7 +54,7 @@ databricks configure --profile secondary --token
 
 Every time set up a profile, you need to provide the Databricks host url and the personal access token generated previously.
 
-![image-20200619153249382](/images/image-20200619153249382.png)
+![image-20200619153249382](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619153249382.png)
 
 2.4 validate the profile
 
@@ -63,23 +63,23 @@ databricks fs ls --absolute --profile primary
 databricks fs ls --absolute --profile secondary
 ```
 
-![image-20200624141216762](/images/image-20200624141216762.png)
+![image-20200624141216762](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200624141216762.png)
 
 Here is the DBFS root locations from [docs](https://docs.microsoft.com/en-us/azure/databricks/data/databricks-file-system)
 
-![image-20200624113619104](/images/image-20200624113619104.png)
+![image-20200624113619104](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200624113619104.png)
 
 ## 3. migrate Azure Active Directory users
 
 3.1 Navigate to the old Databricks UI, expand **Account** in the right corner, then click **Admin Console**. You can get a list of users as admin in this Databricks.
 
-![image-20200619153401452](/images/image-20200619153401452.png)
+![image-20200619153401452](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619153401452.png)
 
-![image-20200619153500424](/images/image-20200619153500424.png)
+![image-20200619153500424](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619153500424.png)
 
 3.2 Navigate to the new Databricks portal, click **Add User** under **Users** tag of **Admin Console** to add admins.
 
-![image-20200624142142524](/images/image-20200624142142524.png)
+![image-20200624142142524](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200624142142524.png)
 
 ## 4. migrate the workspace folders and notebooks
 
@@ -94,7 +94,7 @@ IMPORT_PROFILE = "secondary"
 
 **Solution 2:** Also, you can do it manually: Export as DBC file and then import.
 
-![image-20200619155250927](/images/image-20200619155250927.png)
+![image-20200619155250927](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619155250927.png)
 
 
 
@@ -104,7 +104,7 @@ There is no external API for libraries, so need to reinstall all libraries into 
 
 5.1 list all libraries in the old Databricks.
 
-![image-20200619165944999](/images/image-20200619165944999.png)
+![image-20200619165944999](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619165944999.png)
 
 
 
@@ -112,11 +112,11 @@ There is no external API for libraries, so need to reinstall all libraries into 
 
 Maven libraries:
 
-![image-20200619165917476](/images/image-20200619165917476.png)
+![image-20200619165917476](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619165917476.png)
 
 PyPI libraries:
 
-![image-20200619170223832](/images/image-20200619170223832.png)
+![image-20200619170223832](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619170223832.png)
 
 
 
@@ -158,19 +158,19 @@ list all secret scopes:
 databricks secrets list-scopes --profile primary
 ```
 
-![image-20200619175501231](/images/image-20200619175501231.png)
+![image-20200619175501231](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200619175501231.png)
 
 generate key vault-backed secret scope:
 
 1. Go to `https://<databricks-instance>#secrets/createScope`. This URL is case sensitive; scope in `createScope` must be uppercase.
 
-   ![Create scope](/images/azure-kv-scope.png)
+   ![Create scope](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/azure-kv-scope.png)
 
 2. Enter the name of the secret scope. Secret scope names are case insensitive.
 
 3. These properties are available from the **Properties** tab of an Azure Key Vault in your Azure portal.
 
-   ![Azure Key Vault Properties tab](/images/azure-kv.png)
+   ![Azure Key Vault Properties tab](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/azure-kv.png)
 
 4. Click the **Create** button.
 
@@ -221,7 +221,7 @@ dbfs cp -r old-ws-init-scripts dbfs:/databricks/init --profile secondary
 
 For Databricks jobs scheduled by Azure Data Factory, navigate to Azure Data Factory UI. Create a new Databricks linked service linked to the new Databricks by the personal access key generated in step 2.
 
-![image-20200624174250964](/images/image-20200624174250964.png)
+![image-20200624174250964](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200624174250964.png)
 
 
 

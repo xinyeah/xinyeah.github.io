@@ -130,25 +130,25 @@ We can run .NET for Apache Spark apps on Databricks, but it is not what we usual
 
    1.1 In Databricks workspace, select your user profile in the upper right, and select  **User Settings**.
 
-   ![image-20200617105838264](/images/image-20200617105838264.png)
+   ![image-20200617105838264](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617105838264.png)
 
    1.2 Select **Generate New Token** under the **Access Tokens** tab.
 
-   ![image-20200617105851323](/images/image-20200617105851323.png)
+   ![image-20200617105851323](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617105851323.png)
 
    1.3 Save the access token for later use in creating a Databricks linked service. Usually save it in Azure Key Vault for security.
 
 2. Navigated to the **Pipelines** page on Azure Data Factory, create a new pipeline, search for **Databricks** activities, drag the Jar task to panel.
 
-   ![image-20200617104722883](/images/image-20200617104722883.png)
+   ![image-20200617104722883](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617104722883.png)
 
 3. In the **Jar** activity Demo, updates the paths and settings as needed. **Databricks linked service** should be created using **access token** generated on Databricks previously. Remember to add init script for cluster settings.
 
-   ![image-20200617104957870](/images/image-20200617104957870.png)
+   ![image-20200617104957870](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617104957870.png)
 
 4. Check the **Jar** settings. **Main class name** is org.apache.spark.deploy.dotnet.DotnetRunner. **Parameters** will pass to the main class. it must have your app publish.zip and your app name as the first two parameters. The rest parameters are what your app need. **Append libraries** are microsoft-spark-2.4.x-0.10.0.jar on dbfs.
 
-   ![image-20200617113228776](/images/image-20200617113228776.png)
+   ![image-20200617113228776](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617113228776.png)
 
 5. Click **Debug** to run a test for the current pipeline.
 
@@ -160,15 +160,15 @@ We can run .NET for Apache Spark apps on Databricks, but it is not what we usual
 
 1. Navigate to Databricks Workspace and create a job. Select Task as spark-submit. Set job parameters。
 
-   ![image-20200617113422955](/images/image-20200617113422955.png)
+   ![image-20200617113422955](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617113422955.png)
 
 2. When configure Cluster, need to add init script located on DBFS (Databricks Filesystem).
 
-   ![image-20200616164936163](/images/image-20200616164936163.png)
+   ![image-20200616164936163](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200616164936163.png)
 
 3. select **Run Now** to test the job. Once the job's cluster is created, your Spark job will be submitted.
 
-   ![image-20200617104003375](/images/image-20200617104003375.png)
+   ![image-20200617104003375](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617104003375.png)
 
 #### 2. Deploy using Set Jar
 

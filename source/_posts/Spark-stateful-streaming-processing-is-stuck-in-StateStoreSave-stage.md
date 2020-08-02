@@ -41,7 +41,7 @@ A stateful structured stream processing job is suddenly stuck at the 1st micro-b
 
 Spark SQL converts batch-like query to a series of incremental execution plans operating on new micro-batches of data.
 
-![image-20200706163510103](/images/image-20200706163510103.png)
+![image-20200706163510103](C:\Users\tgttx\Documents\xinyeah.github.io\source\images\image-20200706163510103.png)
 
 
 
@@ -67,19 +67,19 @@ It was running well before. Suddenly, when a new streaming job starts, it seems 
 
 We have 3 regions and this issue happened to every region one by one in a week.
 
-![image-20200706171557385](/images/image-20200706171557385.png)
+![image-20200706171557385](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200706171557385.png)
 
-![image-20200706171822384](/images/image-20200706171822384.png)
+![image-20200706171822384](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200706171822384.png)
 
 
 
 If you check the checkpoint folder:
 
-![image-20200706172128040](/images/image-20200706172128040.png)
+![image-20200706172128040](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200706172128040.png)
 
 compare with the normal checkpoint:
 
-![image-20200706172305651](/images/image-20200706172305651.png)
+![image-20200706172305651](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200706172305651.png)
 
 The difference is obvious: there is no commits in the checkpoint path. It means the streaming job didn't succeed in processing even a single micro-batch.
 
@@ -111,7 +111,7 @@ Usually, there are several possible reasons to cause streaming processing job st
 
 I compare the DAG visualization with normal job's, it is shown that the StateStoreSave stage takes much longer (16 hours) than the normal one (21 seconds). StateStoreSave is the stage when spark store current streaming process status in checkpoint. Thus the issue exists in checkpoints. More info for StateStoreSave can be found [here](https://jaceklaskowski.gitbooks.io/spark-structured-streaming/spark-sql-streaming-StateStoreSaveExec.html)
 
-![image-20200706161548770](/images/image-20200706161548770.png)
+![image-20200706161548770](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200706161548770.png)
 
 From this detailed stage information, we can get:
 

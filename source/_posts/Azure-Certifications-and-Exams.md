@@ -10,7 +10,7 @@ description: Congratulations to myself! I just hit my July goal and am now a cer
 
 Last month, I passed two Azure exams and earned the Azure Data Engineer Certification.
 
-[<img src="C:\Users\tgttx\Documents\sugartxy.github.io\source\images\image-20200802114853769.png" alt="Data Engineer Certificate" style="zoom:33%;" />](https://www.youracclaim.com/badges/ba23d9b9-e09b-4c41-84c7-37d4de1ded6c/public_url) 
+[<img src="https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200802114853769.png" alt="Data Engineer Certificate" style="zoom:33%;" />](https://www.youracclaim.com/badges/ba23d9b9-e09b-4c41-84c7-37d4de1ded6c/public_url) 
 
 I take data engineer certificate as an example, to explain how to prepare and what the Azure certification exams look like.
 
@@ -18,9 +18,9 @@ I take data engineer certificate as an example, to explain how to prepare and wh
 
 Microsoft has made big changes to its Azure certifications at Ignite conference 2018. The new certifications are role-based, more practical and have a narrower focus for each certification.
 
-![image-20200802125758492](C:\Users\tgttx\Documents\sugartxy.github.io\source\images\image-20200802125758492.png)
+![image-20200802125758492](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200802125758492.png)
 
-![image-20200802113632842](C:\Users\tgttx\Documents\sugartxy.github.io\source\images\image-20200802113632842.png)
+![image-20200802113632842](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200802113632842.png)
 
 Currently, there are 9 role based azure certifications. To earn each certification, it is required to clear one or two certification exams. I list the current certifications and also the required exams in the following:
 
@@ -44,7 +44,7 @@ Once you decided which cloud provider path is right for you, your next step is t
 
 ## Certification Learning Path
 
-![Capture1](C:\Users\tgttx\Documents\sugartxy.github.io\source\images\Capture1.jpg)
+![Capture1](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/Capture1.jpg)
 
 Data Engineer Certification: validates the skills and knowledge to design and implement the management, monitoring, security, and privacy of data using the full stack of  Azure data services to satisfy business needs.
 
@@ -70,7 +70,7 @@ Skills measured: [skills outline](https://query.prod.cms.rt.microsoft.com/cms/ap
 
 All the exams are held by Pearson VUE, the exam appointments appear on the dashboard after registration.
 
-![image-20200802132919448](C:\Users\tgttx\Documents\sugartxy.github.io\source\images\image-20200802132919448.png)
+![image-20200802132919448](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200802132919448.png)
 
 All Azure role based certifications can be taken online, but there are extra [policies](https://docs.microsoft.com/en-us/learn/certifications/online-exams) need to be follow.
 

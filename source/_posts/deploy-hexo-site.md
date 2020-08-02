@@ -89,11 +89,11 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
 
    代码库Settings中查看Github Pages相关设置，你就拥有了自己的站点：https://<YourName>.github.io。对于个人站点，只能将master分支设置为发布来源。
 
-   ![image-20200617193336642](/images/image-20200617193336642.png)
+   ![image-20200617193336642](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617193336642.png)
 
 4. 复制代码库的URL。
 
-![image-20200617181657118](/images/image-20200617181657118.png)
+![image-20200617181657118](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617181657118.png)
 
 2. 在本地代码库添加remote upstream
 
@@ -126,14 +126,15 @@ Travis CI 是持续集成(continuous integration)的平台，可以监控repo具
    git submodule add https://github.com/<YourName>/hexo-theme-next.git themes/next
    ```
    
+
 运行该命令后会在项目根目录生成 `.gitmodules` 文件，文件内容如下：
-   
+
 ```
    [submodule "themes/next"]
        path = themes/next
        url = https://github.com/sugartxy/hexo-theme-next
-   ```
-   
+```
+
 3. 对主题进行个性化配置后，先要 check in子模块，在 theme/next 目录下依次执行：
 
    ```
@@ -251,7 +252,7 @@ Travis CI对于开源的Repository是免费的，只需要拥有Github账户和�
 
 这样每一次更新博客，只需要check in Markdown文件到master 分支，就会自动部署。在Travis CI网站中可以看到部署的状态。
 
-![image-20200617204126319](/images/image-20200617204126319.png)
+![image-20200617204126319](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200617204126319.png)
 
 ## 其他问题
 
@@ -261,7 +262,7 @@ Travis CI对于开源的Repository是免费的，只需要拥有Github账户和�
 
 1.1 进入[github](https://github.com/settings/applications/new)新建一个认证application
 
-![image-20200618225450931](/images/image-20200618225450931.png)
+![image-20200618225450931](https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200618225450931.png)
 
 创建完后会生成这个application对应的 Client ID 和 Client Secret
 
