@@ -1,4 +1,4 @@
-# TangTalk Blog
+# TangTalk - Tech Blog
 
 ![travis build](https://img.shields.io/travis/xinyeah/xinyeah.github.io?style=plastic)[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=plastic)](https://github.com/RichardLitt/standard-readme)
 

@@ -140,7 +140,11 @@ where
 - `<mount-name>` is a DBFS path representing where the Blob storage container or a folder inside the container (specified in `source`) will be mounted in DBFS.
 - `<conf-key>` can be either `fs.azure.account.key.<storage-account-name>.blob.core.windows.net` or `fs.azure.sas.<container-name>.<storage-account-name>.blob.core.windows.net`
 - `dbutils.secrets.get(scope = "<scope-name>", key = "<key-name>")` gets the key that has been stored as a [secret](https://docs.databricks.com/security/secrets/secrets.html) in a [secret scope](https://docs.databricks.com/security/secrets/secret-scopes.html).
+
+
+
 ## 10. Migrate cluster init scripts
+
 Copy all cluster initialization scripts to new Databricks using DBFS CLI.
 ```bash
 // Primary to local
@@ -149,7 +153,10 @@ dbfs cp -r dbfs:/databricks/init ./old-ws-init-scripts --profile primary
 // Local to Secondary workspace
 dbfs cp -r old-ws-init-scripts dbfs:/databricks/init --profile secondary
 ```
+
+
 ## 11. ADF config
+
 For Databricks jobs scheduled by Azure Data Factory, navigate to Azure Data Factory UI. Create a new Databricks linked service linked to the new Databricks by the personal access key generated in step 2.
 <img src="https://raw.githubusercontent.com/xinyeah/xinyeah.github.io/master/images/image-20200624174250964.png" alt="image-20200624174250964" style="zoom: 33%;" />
 
