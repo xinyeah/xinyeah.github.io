@@ -1,4 +1,4 @@
-# tangtalk-blog
+# TangTalk Blog
 
 ![travis build](https://img.shields.io/travis/xinyeah/xinyeah.github.io?style=plastic)[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=plastic)](https://github.com/RichardLitt/standard-readme)
 
@@ -22,4 +22,4 @@ Small note: If editing the README, please conform to the [standard-readme](https
 
 ## License
 
-GPL © 2020 Xinye
+AGPL-3.0 © 2020 Xinye
