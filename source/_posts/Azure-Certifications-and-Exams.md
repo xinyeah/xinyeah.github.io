@@ -119,5 +119,5 @@ For security reason, exam formats or exact question types are not identified bef
 
 - [Azure docs](https://docs.microsoft.com/en-us/azure/?product=featured) for mentioned products.
 - [Azure learn](https://docs.microsoft.com/en-us/learn/certifications/browse/?products=azure) 
-- [Pluralsight paths](https://www.pluralsight.com/search?q=azure certification)
+- [Pluralsight paths](https://www.pluralsight.com/search?q=azure%20certification)
 - [Cloud academy](https://cloudacademy.com/library/azure/)
