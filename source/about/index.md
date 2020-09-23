@@ -9,7 +9,7 @@ layout: about
 
 # Hi there 👋, I am Xinye Tang👩‍💻
 
-- 🔭 I’m currently working on [Azure Key Vault ATP](https://docs.microsoft.com/en-us/azure/security-center/advanced-threat-protection-key-vault) @ Microsoft as the **Service Owner** and ML engineer.
+- 🔭 I’m currently working on [Azure Defender for Key Vault](https://docs.microsoft.com/en-us/azure/security-center/defender-for-key-vault-introduction) @ Microsoft as the **Service Owner** and ML engineer.
 
 - 🌱 I’m currently focused on anomaly detection, Machine Learning and Big data. Earned [Azure Data Engineer certification](https://www.youracclaim.com/badges/ba23d9b9-e09b-4c41-84c7-37d4de1ded6c/public_url)
 
